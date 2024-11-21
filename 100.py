@@ -15,9 +15,3 @@ def wait_for_print():
     print("waited for 3 seconds")
 
 
-def wait_for_print2():
-    from time import sleep
-    sleep(3)
-    print("waited for 3 seconds")
-
-wait_for_print2()
