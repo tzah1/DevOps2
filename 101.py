@@ -8,10 +8,10 @@ my_file = open('name.txt', 'r')
 for name in my_file.readlines():
     if "t" in name:
         print(f'Hello, {name.strip()}!')
-        print(f'Hello, {name.strip()}!')
 my_file.close()
 
 '''opendefinitions:
 r- reading
+w - writing and truncatenating
 a - appending
 w+ -'''
