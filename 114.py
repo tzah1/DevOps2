@@ -7,5 +7,4 @@ if response.status_code == 200:
     print(type(respdewronse))
     print(type(response))
     print(type(res32234ponse))
-    # TODO asdasdasdaasdasfasfa
     print(response.text[:100])
